@@ -2,8 +2,6 @@
 
 A platform for creating podcasts.
 
-![photo](https://www.playit3d.com/wp-content/uploads/2023/01/9423E770-A2CC-4A56-9731-5302BA6CBF71.jpeg)
-
 # Commands for running the software
 
 ## Dependencies
@@ -32,3 +30,5 @@ tts-server \
   --config_path ~/.local/share/tts/tts_models--multilingual--multi-dataset--xtts_v2/config.json \
   --speakers_file_path ~/.local/share/tts/tts_models--multilingual--multi-dataset--xtts_v2/speakers_xtts.pth \
   --use_cuda true
+
+![photo](https://www.playit3d.com/wp-content/uploads/2023/01/9423E770-A2CC-4A56-9731-5302BA6CBF71.jpeg)
