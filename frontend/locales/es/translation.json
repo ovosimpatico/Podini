@@ -1,0 +1,96 @@
+{
+  "podcast": {
+    "generate": "Generar Podcast",
+    "theme": "Tema",
+    "enterTheme": "Ingresa el tema del podcast",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "generationStarted": "Generación Iniciada",
+    "generationFailed": "Generación Fallida",
+    "tryAgain": "Intentar de Nuevo",
+    "audioError": {
+      "title": "Error de Audio",
+      "description": "Hubo un error al cargar el audio. Por favor, inténtalo más tarde."
+    },
+    "playbackError": {
+      "title": "Error de Reproducción",
+      "description": "No se puede reproducir el podcast. Por favor, inténtalo más tarde."
+    },
+    "subtitlesToggle": {
+      "show": "Mostrar Subtítulos",
+      "hide": "Ocultar Subtítulos"
+    }
+  },
+  "buyCredits": {
+    "topUp": "Recarga tu cuenta",
+    "choosePackage": "Elige el paquete perfecto para ti",
+    "mostPopular": "Más Popular",
+    "podcasts": "Podcasts",
+    "buyNow": "Comprar Ahora"
+  },
+  "auth": {
+    "login": {
+      "title": "Podini",
+      "subtitle": "Inicia sesión para acceder a tu cuenta",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "signIn": "Iniciar sesión",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "createAccount": "Crear una cuenta",
+      "enterEmail": "Ingresa tu correo electrónico",
+      "enterPassword": "Ingresa tu contraseña",
+      "loginSuccess": "Inicio de sesión exitoso",
+      "welcomeBack": "¡Bienvenido de nuevo!",
+      "loginFailed": "Error de inicio de sesión",
+      "checkCredentials": "Por favor verifica tu correo y contraseña."
+    },
+    "register": {
+      "title": "Crear Cuenta | Podini",
+      "subtitle": "Regístrate para comenzar",
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar Contraseña",
+      "signUp": "Registrarse",
+      "haveAccount": "¿Ya tienes una cuenta? Inicia sesión",
+      "enterName": "Ingresa tu nombre completo",
+      "enterEmail": "Ingresa tu correo electrónico",
+      "enterPassword": "Ingresa tu contraseña",
+      "confirmYourPassword": "Confirma tu contraseña",
+      "passwordsMismatch": "Las contraseñas no coinciden",
+      "registrationSuccess": "Registro exitoso",
+      "registrationSuccessDesc": "Te has registrado e iniciado sesión correctamente.",
+      "registrationFailed": "Error en el registro",
+      "registrationFailedDesc": "Ocurrió un error durante el registro."
+    },
+    "resetPassword": {
+      "title": "Restablecer tu Contraseña",
+      "subtitle": "Ingresa tu nueva contraseña",
+      "newPassword": "Nueva Contraseña",
+      "confirmNewPassword": "Confirmar Nueva Contraseña",
+      "resetPassword": "Restablecer Contraseña",
+      "enterNewPassword": "Ingresa tu nueva contraseña",
+      "confirmNewPasswordPlaceholder": "Confirma tu nueva contraseña",
+      "invalidToken": "Token inválido o faltante. Por favor solicita un nuevo restablecimiento de contraseña.",
+      "resetSuccess": "Contraseña Restablecida Exitosamente",
+      "resetSuccessDesc": "Tu contraseña ha sido restablecida. Ahora puedes iniciar sesión con tu nueva contraseña.",
+      "resetFailed": "Error al Restablecer Contraseña",
+      "resetFailedDesc": "Hubo un error al restablecer tu contraseña. Por favor intenta de nuevo.",
+      "passwordsMismatch": "Por favor asegúrate de que las contraseñas coincidan."
+    },
+    "passwordRecovery": {
+      "title": "Recuperación de Contraseña",
+      "email": "Correo electrónico",
+      "enterEmail": "Ingresa tu correo electrónico",
+      "sendRecoveryEmail": "Enviar Correo de Recuperación",
+      "recoveryEmailSent": "Correo de recuperación enviado a {{email}}",
+      "close": "Cerrar"
+    }
+  },
+  "sidebar": {
+    "generate": "Generar",
+    "buyCredits": "Comprar Créditos",
+    "credits": "Créditos",
+    "logout": "Cerrar Sesión"
+  }
+}

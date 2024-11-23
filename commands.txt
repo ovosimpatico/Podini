@@ -1,0 +1,19 @@
+# Commands for running the software
+
+Stripe (test mode): stripe listen --forward-to localhost:8000/payment/webhook
+Frontend: cd frontend && npm run dev
+Backend: cd backend/app && python main.py
+
+# TTS
+## Get docker up
+docker run --rm -it -p 5002:5002 --gpus all --entrypoint bash ghcr.io/coqui-ai/tts
+
+## Download model (it'll download but fail to run afterwards, as expected, we just want it to download)
+COQUI_TOS_AGREED=1 python3 TTS/server/server.py --model_name tts_models/multilingual/multi-dataset/xtts_v2
+
+## Run it like this afterwards
+tts-server \
+  --model_path ~/.local/share/tts/tts_models--multilingual--multi-dataset--xtts_v2 \
+  --config_path ~/.local/share/tts/tts_models--multilingual--multi-dataset--xtts_v2/config.json \
+  --speakers_file_path ~/.local/share/tts/tts_models--multilingual--multi-dataset--xtts_v2/speakers_xtts.pth \
+  --use_cuda true

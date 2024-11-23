@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pymongo
+pydantic
+passlib
+PyJWT
+email-validator
+python-dotenv
+bcrypt
+stripe
+jinja2
+openai
+pydub
+srt
+replicate
+pillow

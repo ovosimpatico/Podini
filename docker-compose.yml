@@ -1,0 +1,49 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URL=
+      - JWT_SECRET=
+      - SOFTWARE_NAME=
+
+      - STRIPE_SECRET_KEY=
+      - STRIPE_PUBLISHABLE_KEY=
+      - STRIPE_WEBHOOK_SECRET=
+
+      - CREDIT_VALUE=
+
+      - SMTP_SERVER=
+      - SMTP_PORT=
+      - SMTP_USERNAME=
+      - SMTP_PASSWORD=
+      - FROM_EMAIL=
+      - FRONTEND_URL=
+
+      - OPENAI_API_KEY=
+      - ELEVENLABS_API_KEY=
+      - REPLICATE_API_TOKEN=
+    volumes:
+      - ./backend:/app
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    environment:
+      - VITE_API_URL=http://backend:8000
+
+networks:
+  app-network:
+    driver: bridge

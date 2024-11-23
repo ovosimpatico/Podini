@@ -1,0 +1,96 @@
+{
+  "podcast": {
+    "generate": "Gerar Podcast",
+    "theme": "Tema",
+    "enterTheme": "Digite o tema do podcast",
+    "play": "Reproduzir",
+    "pause": "Pausar",
+    "generationStarted": "Gerando Podcast",
+    "generationFailed": "Gerar Falhou",
+    "tryAgain": "Tente Novamente",
+    "audioError": {
+      "title": "Erro de Áudio",
+      "description": "Ocorreu um erro ao carregar o áudio. Por favor, tente novamente mais tarde."
+    },
+    "playbackError": {
+      "title": "Erro de Reprodução",
+      "description": "Não foi possível reproduzir o podcast. Por favor, tente novamente mais tarde."
+    },
+    "subtitlesToggle": {
+      "show": "Mostrar Legendas",
+      "hide": "Ocultar Legendas"
+    }
+  },
+  "buyCredits": {
+    "topUp": "Recarregue sua conta",
+    "choosePackage": "Escolha o pacote perfeito para você",
+    "mostPopular": "Mais Popular",
+    "podcasts": "Podcasts",
+    "buyNow": "Comprar Agora"
+  },
+  "auth": {
+    "login": {
+      "title": "Podini",
+      "subtitle": "Entre para acessar sua conta",
+      "email": "E-mail",
+      "password": "Senha",
+      "signIn": "Entrar",
+      "forgotPassword": "Esqueceu a senha?",
+      "createAccount": "Criar uma Conta",
+      "enterEmail": "Digite seu e-mail",
+      "enterPassword": "Digite sua senha",
+      "loginSuccess": "Login Realizado com Sucesso",
+      "welcomeBack": "Bem-vindo de volta!",
+      "loginFailed": "Falha no Login",
+      "checkCredentials": "Por favor, verifique seu e-mail e senha."
+    },
+    "register": {
+      "title": "Criar Conta | Podini",
+      "subtitle": "Cadastre-se para começar",
+      "fullName": "Nome Completo",
+      "email": "E-mail",
+      "password": "Senha",
+      "confirmPassword": "Confirmar Senha",
+      "signUp": "Cadastrar",
+      "haveAccount": "Já tem uma conta? Faça login",
+      "enterName": "Digite seu nome completo",
+      "enterEmail": "Digite seu e-mail",
+      "enterPassword": "Digite sua senha",
+      "confirmYourPassword": "Confirme sua senha",
+      "passwordsMismatch": "As senhas não correspondem",
+      "registrationSuccess": "Cadastro realizado com sucesso",
+      "registrationSuccessDesc": "Você foi registrado e conectado com sucesso.",
+      "registrationFailed": "Falha no cadastro",
+      "registrationFailedDesc": "Ocorreu um erro durante o cadastro."
+    },
+    "resetPassword": {
+      "title": "Redefinir Sua Senha",
+      "subtitle": "Digite sua nova senha abaixo",
+      "newPassword": "Nova Senha",
+      "confirmNewPassword": "Confirmar Nova Senha",
+      "resetPassword": "Redefinir Senha",
+      "enterNewPassword": "Digite sua nova senha",
+      "confirmNewPasswordPlaceholder": "Confirme sua nova senha",
+      "invalidToken": "Token inválido ou ausente. Por favor, solicite uma nova redefinição de senha.",
+      "resetSuccess": "Senha Redefinida com Sucesso",
+      "resetSuccessDesc": "Sua senha foi redefinida. Agora você pode fazer login com sua nova senha.",
+      "resetFailed": "Falha na Redefinição de Senha",
+      "resetFailedDesc": "Ocorreu um erro ao redefinir sua senha. Por favor, tente novamente.",
+      "passwordsMismatch": "Certifique-se de que as senhas correspondam."
+    },
+    "passwordRecovery": {
+      "title": "Recuperação de Senha",
+      "email": "E-mail",
+      "enterEmail": "Digite seu e-mail",
+      "sendRecoveryEmail": "Enviar E-mail de Recuperação",
+      "recoveryEmailSent": "E-mail de recuperação enviado para {{email}}",
+      "close": "Fechar"
+    }
+  },
+  "sidebar": {
+    "generate": "Gerar",
+    "buyCredits": "Comprar Créditos",
+    "credits": "Créditos",
+    "logout": "Sair"
+  }
+}

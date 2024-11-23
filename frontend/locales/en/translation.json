@@ -1,0 +1,96 @@
+{
+  "podcast": {
+    "generate": "Generate Podcast",
+    "theme": "Theme",
+    "enterTheme": "Enter podcast theme",
+    "play": "Play",
+    "pause": "Pause",
+    "generationFailed": "Generation Failed",
+    "tryAgain": "Try Again",
+    "generationStarted": "Generation Started",
+    "audioError": {
+      "title": "Audio Error",
+      "description": "There was an error loading the audio. Please try again later."
+    },
+    "playbackError": {
+      "title": "Playback Error",
+      "description": "Unable to play the podcast. Please try again later."
+    },
+    "subtitlesToggle": {
+      "show": "Show Subtitles",
+      "hide": "Hide Subtitles"
+    }
+  },
+  "buyCredits": {
+    "topUp": "Top up your account",
+    "choosePackage": "Choose the perfect package for you",
+    "mostPopular": "Most Popular",
+    "podcasts": "Podcasts",
+    "buyNow": "Buy Now"
+  },
+  "auth": {
+    "login": {
+      "title": "Podini",
+      "subtitle": "Sign in to access your account",
+      "email": "Email address",
+      "password": "Password",
+      "signIn": "Sign in",
+      "forgotPassword": "Forgot password?",
+      "createAccount": "Create an Account",
+      "enterEmail": "Enter your email",
+      "enterPassword": "Enter your password",
+      "loginSuccess": "Login Successful",
+      "welcomeBack": "Welcome back!",
+      "loginFailed": "Login Failed",
+      "checkCredentials": "Please check your email and password."
+    },
+    "register": {
+      "title": "Create Account | Podini",
+      "subtitle": "Sign up to get started",
+      "fullName": "Full Name",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "signUp": "Sign up",
+      "haveAccount": "Already have an account? Log in",
+      "enterName": "Enter your full name",
+      "enterEmail": "Enter your email",
+      "enterPassword": "Enter your password",
+      "confirmYourPassword": "Confirm your password",
+      "passwordsMismatch": "Passwords do not match",
+      "registrationSuccess": "Registration successful",
+      "registrationSuccessDesc": "You have been registered and logged in successfully.",
+      "registrationFailed": "Registration failed",
+      "registrationFailedDesc": "An error occurred during registration."
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "subtitle": "Enter your new password below",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "resetPassword": "Reset Password",
+      "enterNewPassword": "Enter your new password",
+      "confirmNewPasswordPlaceholder": "Confirm your new password",
+      "invalidToken": "Invalid or missing reset token. Please request a new password reset.",
+      "resetSuccess": "Password Reset Successful",
+      "resetSuccessDesc": "Your password has been reset. You can now log in with your new password.",
+      "resetFailed": "Password Reset Failed",
+      "resetFailedDesc": "There was an error resetting your password. Please try again.",
+      "passwordsMismatch": "Please make sure your passwords match."
+    },
+    "passwordRecovery": {
+      "title": "Password Recovery",
+      "email": "Email address",
+      "enterEmail": "Enter your email",
+      "sendRecoveryEmail": "Send Recovery Email",
+      "recoveryEmailSent": "Recovery email sent to {{email}}",
+      "close": "Close"
+    }
+  },
+  "sidebar": {
+    "generate": "Generate",
+    "buyCredits": "Buy Credits",
+    "credits": "Credits",
+    "logout": "Logout"
+  }
+}
