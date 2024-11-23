@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: read
       packages: write
+      id-token: write
 
     steps:
     - name: Checkout code
@@ -29,22 +30,18 @@ jobs:
 
     - name: Build and push backend image
       uses: docker/build-push-action@v4
-      env:
-        DOCKER_BUILDKIT: 1
       with:
         context: ./backend
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/podini-backend:latest
+        tags: ghcr.io/ovosimpatico/podini-backend:latest
         cache-from: type=gha
         cache-to: type=gha,mode=max
 
     - name: Build and push frontend image
       uses: docker/build-push-action@v4
-      env:
-        DOCKER_BUILDKIT: 1
       with:
         context: ./frontend
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/podini-frontend:latest
+        tags: ghcr.io/ovosimpatico/podini-frontend:latest
         cache-from: type=gha
         cache-to: type=gha,mode=max
